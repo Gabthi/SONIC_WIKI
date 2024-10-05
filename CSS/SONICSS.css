@@ -1,0 +1,600 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: minhafonte;
+    src: url(LondrinaSolid-Regular.ttf)
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: red;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.cabeça{
+    position: absolute;
+    width: 300px;
+    top: -50px;
+    left: -10px ;
+}
+.N{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: absolute;
+}
+nav{
+    text-align: center;
+    height: 100px;
+    font-family: minhafonte;
+}
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25pt;
+    position: relative;
+    top: 30;
+}
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
+    width: 60%;
+}
+.fundoCEU{
+    background-image: url(céusonic.gif);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 400px;
+}
+.LOGO{
+    font-family: minhafonte;
+    color: #FFFFFF;
+    position: absolute ;
+    top:150px;
+    margin: 0;
+    left: 460px;
+    width: 35%;
+}
+.barra{
+    background-color: white;
+    width: absolute ;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+.up{
+    position: fixed;
+    right: 3px;
+    width: 60px;
+    bottom: 10px;
+    
+}
+.up:hover{
+    scale: 1.2;
+    transition: all 0.3s linear;
+}
+.titleORI{
+    font-family: minhafonte;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 100;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top:-100px;
+    margin: 0;
+    left: 200px;
+}
+.textORI{
+    font-family: minhafonte;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 65px;
+    margin: 10px;
+    padding: 0;
+}
+.box0{
+    background-color: red;
+    width: 50%;
+    height: 48%;
+    border-radius: 42px;
+    position: relative;
+    left: 700px;
+    top: 150px;
+    margin: 0;
+    padding: 0;
+}
+.fundo0{
+    background-image: url(Green_Hill_Zone.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+}
+.img0{
+    width:200px;
+    position: absolute;
+   top: 680px;
+   left: 230px;
+}
+.box1{
+    background-color: red;
+    width: 50%;
+    height: 48%;
+    border-radius: 42px;
+    position: absolute;
+    left: 380px;
+    top: 1170px;
+    margin: 0;
+    padding: 0;
+    
+}
+.textHIS{
+    font-family: minhafonte;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 40px;
+    margin: 10;
+    padding: 10;
+}
+.fundobox1{
+    background-image: url(Word2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:1800px ;
+    
+}
+.imgSONIC{
+    position: absolute;
+    width: 180px;
+    top: 1600px;
+}
+.boxSONIC{
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 42px;
+    position: absolute;
+    left: 250px;
+    top: 1590px;
+    margin: 0;
+    padding: 0;
+}
+.titleSONIC{
+    font-family: minhafonte;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 100;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top:-100px;
+    margin: 0;
+    left: 80px;
+}
+.textSONIC{
+    font-family: minhafonte;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 40px;
+    margin: 10;
+    padding: 10;
+}
+.boxALIADOS{
+    background-color: red;
+    width: 10%;
+    height: 10%;
+    border-radius: 22px;
+    position: absolute;
+    left: 1100px;
+    top: 1590px;
+    margin: 0;
+    padding: 0;
+}
+.titleALIADOS{
+    font-family: minhafonte;
+    color: #FFFFFF;
+    font-size: 38px;
+    position: absolute;
+    left: 15px;
+    top: -20px;
+}
+.ALIADOS{
+    position: absolute;
+    width: 280px;
+    top: 1680px;
+    left: 1040px;
+}
+.imgTAILLS{
+    position: absolute;
+    width: 180px;
+    top: 1940px;
+}
+.boxTAILLS{
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 42px;
+    position: absolute;
+    left: 250px;
+    top: 1890px;
+    margin: 0;
+    padding: 0;
+}
+.titleTAILLS{
+    font-family: minhafonte;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 100;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top:-100px;
+    margin: 0;
+    left: 80px;
+}
+.textTAILLs{
+    font-family: minhafonte;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 40px;
+    margin: 10;
+    padding: 10;
+}
+.imgKNUCKLES{
+    position: absolute;
+    width: 100px;
+    top: 1920px;
+    left: 780px;
+}
+.boxKNUCKLES{
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 42px;
+    position: absolute;
+    left: 980px;
+    top: 1890px;
+    margin: 0;
+    padding: 0;
+}
+.titleKNUCKLES{
+    font-family: minhafonte;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 100;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top:-100px;
+    margin: 0;
+    left: 50px;
+}
+.textKNUCKLES{
+    font-family: minhafonte;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 40px;
+    margin: 10;
+    padding: 10;
+}
+.boxVILÃo{
+    background-color: red;
+    width: 20%;
+    height: 10%;
+    border-radius: 22px;
+    position: absolute;
+    left: 190px;
+    top: 2300px;
+    margin: 0;
+    padding: 0;
+}
+.titleVILÃO{
+    font-family: minhafonte;
+    font-size: 32px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 15px;
+    margin: 0;
+    left: 50px;
+}
+.V{
+    font-family: minhafonte;
+    font-size: 32px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 15px;
+    margin: 0;
+    left:175px;
+}
+.imgROBOT{
+    position: absolute;
+    width: 300px;
+    top: 2400px;
+    left: 180px;
+}
+.boxROBOT{
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 42px;
+    position: absolute;
+    left: 115px;
+    top: 2625px;
+    margin: 0;
+    padding: 0;
+}
+.titleROBOT{
+    font-family: minhafonte;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 100;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top:-100px;
+    margin: 0;
+    left: 50px;
+}
+.textROBOT{
+    font-family: minhafonte;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 40px;
+    margin: 10;
+    padding: 10;
+}
+.boxCHAOS{
+    background-color: red;
+    width: 25%;
+    height: 10%;
+    border-radius: 22px;
+    position: absolute;
+    left: 950px;
+    top: 2300px;
+    margin: 0;
+    padding: 0;
+}
+.titleCHAOS{
+    font-family: minhafonte;
+    font-size: 32px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    top: 15px;
+    margin: 0;
+    left: 60px;
+}
+.imgCHAOS{
+    position: absolute;
+    width: 250px;
+    top: 2400px;
+    left: 1000px;
+}
+.boxESM{
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 42px;
+    position: absolute;
+    left: 920px;
+    top: 2625px;
+    margin: 0;
+    padding: 0;
+}
+.textCHAOS{
+    font-family: minhafonte;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 40px;
+    margin: 10;
+    padding: 10;
+}
+.textESM{
+    font-family: minhafonte;
+    font-size: 25px;
+    color: #FFFFFF;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top: 15px;
+    margin: 0;
+    padding: 10;
+}
+.fundobox2{
+    background-image: url(WORD.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:1200px ;
+}
+.boxJOGOS{
+    background-color: red;
+    width: 10%;
+    height: 10%;
+    border-radius: 42px;
+    position: absolute;
+    left: 650px;
+    top: 2970px;
+    margin: 0;
+    padding: 0;
+}
+.titleJOGOS{
+    font-family: minhafonte;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 100;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top:-85px;
+    margin: 0;
+    right: -70px;
+}
+.mania{
+    width: 250px;
+    height: 332px;
+    position: absolute;
+    top: 3100px;
+    left: 70px;
+    border-radius: 20px;
+}
+.mania:hover {
+    scale: 1.1;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 30px white;
+    
+}
+.star{
+    width: 250px;
+    position: absolute;
+    top: 3100px;
+    left: 430px;
+    border-radius: 20px;
+}
+.star:hover{
+    scale: 1.1;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 30px white;
+    
+}
+.origens{
+    width: 250px;
+    height: 332px;
+    position: absolute;
+    top: 3100px;
+    left: 800px;
+    border-radius: 20px;
+}
+.origens:hover{
+    scale: 1.1;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 30px white;
+    
+}
+.generations{
+    width: 250px;
+    height: 332px;
+    position: absolute;
+    top: 3100px;
+    right: 70px;
+    border-radius: 20px;
+}
+.generations:hover{
+    scale: 1.1;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 30px white;
+    
+}
+.boxFILMES{
+    background-color: red;
+    width: 10%;
+    height: 10%;
+    border-radius: 42px;
+    position: absolute;
+    left: 650px;
+    top: 3570px;
+    margin: 0;
+    padding: 0;
+}
+.titleFILMES{
+    font-family: minhafonte;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 100;
+    position: absolute ;
+    z-index: 3;
+    text-align: center;
+    top:-85px;
+    margin: 0;
+    right: -77px;
+}
+.sonic1{
+    width: 250px;
+    height: 332px;
+    position: absolute;
+    top: 3730px;
+    left: 200px;
+    border-radius: 20px;
+}
+.sonic1:hover{
+    scale: 1.1;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 30px white;
+    border: solid 1px white;
+}
+
+.sonic2{
+    width: 250px;
+    height: 332px;
+    position: absolute;
+    top: 3730px;
+    left: 600px;
+    border-radius: 20px;
+}
+.sonic2:hover{
+    scale: 1.1;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 30px white;
+    border: solid 1px white;
+}
+.sonic3{
+    width: 250px;
+    height: 332px;
+    position: absolute;
+    top: 3730px;
+    right: 200px;
+    border-radius: 20px;
+}
+.sonic3:hover{
+    scale: 1.1;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 30px white;
+    border: solid 1px white;
+}
